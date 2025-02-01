@@ -1,0 +1,65 @@
+/* General Page Styling */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Post Grid */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Post Card */
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+/* Image & Video */
+.post-card img,
+.post-card video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Post Actions */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  color: #0056b3;
+}
+
+/* Comments Link */
+.comments-link {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.comments-link:hover {
+  text-decoration: underline;
+}

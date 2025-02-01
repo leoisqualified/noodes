@@ -1,0 +1,80 @@
+/* Navbar Container */
+nav {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 85%;
+  height: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 40px;
+  margin: 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+/* Push content below navbar */
+body {
+  padding-top: 60px;
+  margin: 0;
+}
+
+/* Brand Name */
+nav h1 a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+/* Navigation Links */
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Authenticated User Text */
+nav span {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Links */
+nav a {
+  color: orangered;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orangered; /* Darker shade for hover */
+  transform: scale(1.1); /* Slightly enlarges the link */
+  text-decoration: none;
+}
+/* Logout Button */
+nav button {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+nav button:hover {
+  color: #b22222;
+  text-decoration: none;
+}
