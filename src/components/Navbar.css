@@ -14,6 +14,7 @@ nav {
   align-items: center;
   z-index: 1;
   border-radius: 20px;
+  border: 1px solid rgb(252, 141, 100);
 }
 
 /* Push content below navbar */
@@ -23,12 +24,22 @@ body {
 }
 
 /* Brand Name */
+/* Center the logo */
+nav h1 {
+  display: flex;
+  align-items: center; /* Ensures the text is vertically aligned */
+  height: 100%; /* Matches the navbar height */
+  margin: 0;
+}
+
 nav h1 a {
   font-size: 1.8rem;
   font-weight: bold;
   color: #333;
   text-decoration: none;
-  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 /* Navigation Links */
@@ -46,7 +57,7 @@ nav span {
 
 /* Links */
 nav a {
-  color: orangered;
+  color: black;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;

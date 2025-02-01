@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md p-4 flex justify-between items-center">
       <h1 className="text-xl font-bold">
-        <Link to="/">Nudio</Link>
+        <Link to="/">noodes</Link>
       </h1>
       <div className="space-x-4">
         {user ? (
